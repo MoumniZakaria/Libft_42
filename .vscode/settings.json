@@ -1,0 +1,32 @@
+{
+    "files.associations": {
+        "unistd.h": "c",
+        "string.h": "c",
+        "stdlib.h": "c",
+        "limits.h": "c",
+        "__bit_reference": "c",
+        "algorithm": "c",
+        "bitset": "c",
+        "chrono": "c",
+        "unordered_map": "c",
+        "__hash_table": "c",
+        "__split_buffer": "c",
+        "array": "c",
+        "initializer_list": "c",
+        "iterator": "c",
+        "string": "c",
+        "string_view": "c",
+        "utility": "c",
+        "vector": "c",
+        "stdio.h": "c",
+        "climits": "c",
+        "sstream": "c",
+        "streambuf": "c",
+        "libft.h": "c",
+        "_size_t.h": "c",
+        "cstdlib": "c",
+        "locale": "c",
+        "ostream": "c",
+        "new": "c"
+    }
+}
