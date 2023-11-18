@@ -6,29 +6,33 @@
 /*   By: zmoumni <zmoumni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/16 11:04:18 by zmoumni           #+#    #+#             */
-/*   Updated: 2023/11/17 12:05:49 by zmoumni          ###   ########.fr       */
+/*   Updated: 2023/11/18 12:11:10 by zmoumni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
+t_list    *ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {
-	t_list	*new;
-	t_list	*str;
+    t_list    *new;
+    t_list    *str;
 
-	new = NULL;
-	if (!(*f) || !lst)
-		return (NULL);
-	while (lst)
-	{
-		str = ft_lstnew((*f)(lst->content));
-		if (!str)
-			ft_lstclear(&new, (*del));
-		ft_lstadd_back(&new, str);
-		lst = lst -> next;
-	}
-	return (new);
+    new = NULL;
+    // if (!(*f) || !lst)
+    //     return (NULL);
+    while (lst)
+    {
+        str = ft_lstnew(NULL);
+        if (!str)
+        {
+            ft_lstclear(&new, del);
+            return NULL;
+        }
+        str->content = f(lst->content);
+        ft_lstadd_back(&new, str);
+        lst = lst -> next;
+    }
+    return (new);
 }
 //void	*f(void *content)
 //{

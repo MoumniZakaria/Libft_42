@@ -6,7 +6,7 @@
 /*   By: zmoumni <zmoumni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/03 14:48:38 by zmoumni           #+#    #+#             */
-/*   Updated: 2023/11/17 17:24:00 by zmoumni          ###   ########.fr       */
+/*   Updated: 2023/11/18 11:36:00 by zmoumni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,11 +20,11 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	i = 0;
 	if (!s)
 		return (NULL);
-	if (ft_strlen(s) < start)
+	if (ft_strlen(s) <= start)
 		return (ft_strdup(""));
-	if (len > ft_strlen(s))
-		len = ft_strlen(s) - start;
-	tbl = (char *)malloc(sizeof(char) * len + 1);
+	if (len >= ft_strlen(&s[start]))
+		len = ft_strlen(&s[start]);
+	tbl = (char *)malloc(sizeof(char) * (len + 1));
 	if (!tbl)
 		return (NULL);
 	while (i < len)
