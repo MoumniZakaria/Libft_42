@@ -6,7 +6,7 @@
 /*   By: zmoumni <zmoumni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/03 14:48:05 by zmoumni           #+#    #+#             */
-/*   Updated: 2023/11/17 10:36:59 by zmoumni          ###   ########.fr       */
+/*   Updated: 2023/11/20 10:24:39 by zmoumni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,12 +34,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	dst[dst_len + i] = '\0';
 	return (dst_len + src_len);
 }
-// int main()
-// {
-//    char dst [11] = "a";
-//     printf("%zu\n",ft_strlcat(dst, "lorem", 15));
-// }
-// size_t    ft_strlcat(char dest, const char *src, size_t size)
-// {
-//     size_t    i;
-//     size_t dest_len;

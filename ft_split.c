@@ -6,7 +6,7 @@
 /*   By: zmoumni <zmoumni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/03 15:44:29 by zmoumni           #+#    #+#             */
-/*   Updated: 2023/11/17 11:18:48 by zmoumni          ###   ########.fr       */
+/*   Updated: 2023/11/20 10:24:19 by zmoumni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -85,14 +85,3 @@ char	**ft_split(char const *str, char c)
 	}
 	return (tbl[k] = NULL, tbl);
 }
-// int main()
-// {
-//     //printf("%d\n",count());
-//     char **tbl = ft_split(NULL, ' ');
-//     int i = 0;
-//     while (tbl[i])
-//     {
-//     printf("|%s|\n",tbl[i]);
-//         i++;
-//     }
-// }

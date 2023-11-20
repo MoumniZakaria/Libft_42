@@ -6,7 +6,7 @@
 /*   By: zmoumni <zmoumni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/03 14:48:34 by zmoumni           #+#    #+#             */
-/*   Updated: 2023/11/17 10:04:07 by zmoumni          ###   ########.fr       */
+/*   Updated: 2023/11/20 10:25:17 by zmoumni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,10 +27,3 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (0);
 }
-// int main()
-// {
-//     const char src[]="teste";
-//     printf("========%s\n",ft_strrchr(src,  'x'));
-//     printf("--------%s\n",strrchr(src,  'x'));
-//     return 0;
-// }

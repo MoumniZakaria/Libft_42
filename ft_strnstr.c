@@ -6,7 +6,7 @@
 /*   By: zmoumni <zmoumni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/08 14:15:28 by zmoumni           #+#    #+#             */
-/*   Updated: 2023/11/17 10:05:54 by zmoumni          ###   ########.fr       */
+/*   Updated: 2023/11/20 10:20:01 by zmoumni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,8 +36,3 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (0);
 }
-
-// int main()
-// {
-//     printf("|%s|",ft_strnstr("hello hi hi hhhhh ","i",11));
-// }

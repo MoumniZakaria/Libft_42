@@ -6,7 +6,7 @@
 /*   By: zmoumni <zmoumni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/02 14:03:26 by zmoumni           #+#    #+#             */
-/*   Updated: 2023/11/17 19:52:34 by zmoumni          ###   ########.fr       */
+/*   Updated: 2023/11/20 09:53:58 by zmoumni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,13 +36,3 @@ int	ft_atoi(const char *str)
 	}
 	return (rst * m);
 }
-// int	main(void)
-// {
-// 	const	char *s = "-21474836468465161598149619964554656";
-// 	const	char *s1 = "--12345";
-//     printf("%d\n", ft_atoi(s));
-//     // printf("%d\n", ft_atoi(s1));
-// 	printf("--------");
-//     printf("=====>%d\n", atoi( s));
-//     // printf("=====>%d\n", atoi( s1));
-// }

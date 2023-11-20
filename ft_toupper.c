@@ -6,7 +6,7 @@
 /*   By: zmoumni <zmoumni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/31 11:31:53 by zmoumni           #+#    #+#             */
-/*   Updated: 2023/11/16 15:27:52 by zmoumni          ###   ########.fr       */
+/*   Updated: 2023/11/20 10:24:55 by zmoumni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,11 +19,3 @@ int	ft_toupper(int c)
 	else
 		return (c);
 }
-
-// int main()
-// {
-//     int c = 'a';
-//     printf("%d\n",ft_toupper(c));
-//     printf("%d\n",toupper(c));
-//     return 0;
-// }

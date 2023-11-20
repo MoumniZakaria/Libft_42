@@ -6,7 +6,7 @@
 /*   By: zmoumni <zmoumni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/03 14:48:38 by zmoumni           #+#    #+#             */
-/*   Updated: 2023/11/18 11:36:00 by zmoumni          ###   ########.fr       */
+/*   Updated: 2023/11/20 10:19:39 by zmoumni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,9 +36,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	tbl[len] = '\0';
 	return (tbl);
 }
-// #include <stdio.h>
-// int main ()
-// {
-
-//     printf("%s", ft_substr("hola", 2, 3));
-// }

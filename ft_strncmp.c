@@ -6,7 +6,7 @@
 /*   By: zmoumni <zmoumni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/03 14:48:25 by zmoumni           #+#    #+#             */
-/*   Updated: 2023/11/17 10:11:02 by zmoumni          ###   ########.fr       */
+/*   Updated: 2023/11/20 10:20:06 by zmoumni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,11 +31,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	return (b1[i] - b2[i]);
 }
-// int main()
-// {
-// 	char s1[]="z";
-// 	char s2[]="a";
-
-// 	printf("%d \n",ft_strncmp(s1,s2,1));
-// 	printf("%d \n",strncmp(s1,s2,1));
-// }

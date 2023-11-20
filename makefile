@@ -1,3 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: zmoumni <zmoumni@student.42.fr>            +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2023/11/18 16:05:05 by zmoumni           #+#    #+#              #
+#    Updated: 2023/11/19 17:02:01 by zmoumni          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 NAME = libft.a
 CC = cc
 HEADER = libft.h
@@ -15,7 +27,6 @@ SRC =   ft_strlen.c\
 		ft_memcpy.c\
 		ft_memset.c\
 		ft_strchr.c\
-		ft_strdup.c\
 		ft_strjoin.c\
 		ft_strlcat.c\
 		ft_strlcpy.c\
@@ -76,7 +87,5 @@ re: fclean all
 
 fclean : clean
 	rm -f ${NAME}
-
-.PHONY : all clean fclean re
-
-
+	
+.PHONY: all clean fclean re

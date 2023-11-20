@@ -6,7 +6,7 @@
 /*   By: zmoumni <zmoumni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/15 10:27:51 by zmoumni           #+#    #+#             */
-/*   Updated: 2023/11/17 13:58:04 by zmoumni          ###   ########.fr       */
+/*   Updated: 2023/11/20 10:23:03 by zmoumni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,16 +29,3 @@ void	ft_lstclear(t_list **lst, void (*del)(void*))
 	}
 	*lst = NULL;
 }
-// void free_content(void *content)
-// {
-//     free(content);
-// }
-// int main()
-// {
-//     t_list *node = (t_list*)malloc(sizeof(t_list));
-//     node->content = 42;
-//     node->next = NULL;
-//     ft_lstclear(node, free_content);
-//     printf("%d\n",);
-//     return 0;
-// }

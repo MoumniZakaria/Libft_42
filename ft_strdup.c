@@ -6,7 +6,7 @@
 /*   By: zmoumni <zmoumni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/03 11:45:25 by zmoumni           #+#    #+#             */
-/*   Updated: 2023/11/17 10:45:52 by zmoumni          ###   ########.fr       */
+/*   Updated: 2023/11/20 10:20:44 by zmoumni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,14 +37,3 @@ char	*ft_strdup(const char *src)
 		return (0);
 	return (ft_strcpy(dup, (char *)src));
 }
-
-// int	main(void)
-// {
-// 	int	i;
-// 	i = 0;
-// 	char	src[] = "zakaria";
-// 	char	*dup = ft_strdup(src);
-// 	printf("%s+++++++++++\n", dup);
-// 	printf("%s----------\n", strdup(src));
-// 	return 0;
-// }

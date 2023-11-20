@@ -6,7 +6,7 @@
 /*   By: zmoumni <zmoumni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/03 14:48:01 by zmoumni           #+#    #+#             */
-/*   Updated: 2023/11/17 10:41:23 by zmoumni          ###   ########.fr       */
+/*   Updated: 2023/11/20 10:24:36 by zmoumni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,10 +35,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	tmp[i] = '\0';
 	return (tmp);
 }
-//  int main ()
-//  {
-//     char s1[]="";
-//     char s2[]="";
-//     printf("%s",ft_strjoin("my favorite animal is"," "));
-//     return 0;
-//  }

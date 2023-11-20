@@ -6,7 +6,7 @@
 /*   By: zmoumni <zmoumni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/03 17:56:54 by zmoumni           #+#    #+#             */
-/*   Updated: 2023/11/17 11:54:23 by zmoumni          ###   ########.fr       */
+/*   Updated: 2023/11/20 10:24:46 by zmoumni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,10 +28,3 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 	}
 	return (ft_strlen(src));
 }
-// int main()
-// {
-//     char dest[]="zakaria"; 
-//     printf("*****%zu\n ",ft_strlcpy(dest,"1234",3));
-//     printf("%zu\n",strlcpy(dest,"1234",3));
-//     return 0;
-// }

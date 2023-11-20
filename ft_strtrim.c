@@ -6,7 +6,7 @@
 /*   By: zmoumni <zmoumni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/17 09:54:57 by zmoumni           #+#    #+#             */
-/*   Updated: 2023/11/17 15:09:34 by zmoumni          ###   ########.fr       */
+/*   Updated: 2023/11/20 10:19:53 by zmoumni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,13 +39,3 @@ char	*ft_strtrim(char const	*s1, char const	*set)
 	tmp = ft_substr(s1, start, (end - start + 1));
 	return (tmp);
 }
-// int main()
-// {
-//     // char s[] = "  \t  \n\n \t\t  \n\n\nHello \t  Please\n Trim me ";
-//     // printf("%s\n",ft_strtrim(s, "Hello \t  Please\n Trim me !"));
-
-//     //   char s[] = "f";
-//     // printf("%s\n",ft_strtrim("aaa aaa aaaa   ff  aaa ", "aaa "));
-//     printf("%s",ft_strtrim("abchellocba","abc"));
-//     return 0;
-// }

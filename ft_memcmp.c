@@ -6,7 +6,7 @@
 /*   By: zmoumni <zmoumni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/08 16:46:23 by zmoumni           #+#    #+#             */
-/*   Updated: 2023/11/17 11:56:38 by zmoumni          ###   ########.fr       */
+/*   Updated: 2023/11/20 10:22:30 by zmoumni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,8 +31,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (str1[i] - str2[i]);
 }
-// int main ()
-// {
-//     printf("------%d\n",ft_memcmp("abcdefghij", "abcdefgxyz", 7));
-//     printf("%d\n",memcmp("abcdefghij", "abcdefgxyz", 7));
-// }

@@ -6,7 +6,7 @@
 /*   By: zmoumni <zmoumni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/03 14:47:38 by zmoumni           #+#    #+#             */
-/*   Updated: 2023/11/17 11:53:33 by zmoumni          ###   ########.fr       */
+/*   Updated: 2023/11/20 10:22:22 by zmoumni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,12 +32,3 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 	}
 	return (dst);
 }
-// int main ()
-// {
-//     char src[5] = "helo";
-//     char *dst = "vv";
-//     printf("%s\n",ft_memcpy(((void *)0), ((void *)0), 3));
-//     printf("%s\n",memcpy(((void *)0), ((void *)0), 3));
-//     return 0;
-
-// }
