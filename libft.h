@@ -6,7 +6,7 @@
 /*   By: zmoumni <zmoumni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/03 11:44:22 by zmoumni           #+#    #+#             */
-/*   Updated: 2023/11/17 15:23:15 by zmoumni          ###   ########.fr       */
+/*   Updated: 2023/11/20 11:25:49 by zmoumni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,7 @@
 # define LIBFT_H
 
 # include <stdlib.h>
-# include <stdio.h>
 # include <unistd.h>
-# include <string.h>
-# include <limits.h> 
 
 typedef struct s_list
 {

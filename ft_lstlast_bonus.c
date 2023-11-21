@@ -6,7 +6,7 @@
 /*   By: zmoumni <zmoumni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/14 17:41:51 by zmoumni           #+#    #+#             */
-/*   Updated: 2023/11/20 10:22:54 by zmoumni          ###   ########.fr       */
+/*   Updated: 2023/11/20 11:15:34 by zmoumni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,12 @@
 
 t_list	*ft_lstlast(t_list *lst)
 {
+	t_list	*tmp;
+
 	if (!lst)
 		return (NULL);
-	while (lst->next)
-		lst = lst->next;
-	return (lst);
+	tmp = lst;
+	while (tmp->next)
+		tmp = tmp->next;
+	return (tmp);
 }

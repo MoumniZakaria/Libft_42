@@ -6,7 +6,7 @@
 /*   By: zmoumni <zmoumni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/12 15:25:46 by zmoumni           #+#    #+#             */
-/*   Updated: 2023/11/17 10:14:28 by zmoumni          ###   ########.fr       */
+/*   Updated: 2023/11/20 12:04:31 by zmoumni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,8 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	char			*str;
 
 	i = 0;
+	if (!s || !f)
+		return (NULL);
 	len = ft_strlen(s);
 	str = malloc(len + 1);
 	if (!str)

@@ -6,13 +6,13 @@
 /*   By: zmoumni <zmoumni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/04 16:50:51 by zmoumni           #+#    #+#             */
-/*   Updated: 2023/11/20 10:23:14 by zmoumni          ###   ########.fr       */
+/*   Updated: 2023/11/21 13:33:14 by zmoumni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	count_nbr(int n)
+static int	count_nbr(int n)
 {
 	int	len;
 
@@ -32,7 +32,7 @@ int	count_nbr(int n)
 	return (len);
 }
 
-char	*check_minint(void)
+static char	*check_minint(void)
 {
 	char	*str;
 	int		i;
@@ -55,7 +55,7 @@ char	*check_minint(void)
 	return (str);
 }
 
-char	*ft_itoa(int n)
+static char	*ft_itoa(int n)
 {
 	size_t	len;
 	char	*str;

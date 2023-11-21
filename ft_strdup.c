@@ -6,13 +6,13 @@
 /*   By: zmoumni <zmoumni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/03 11:45:25 by zmoumni           #+#    #+#             */
-/*   Updated: 2023/11/20 10:20:44 by zmoumni          ###   ########.fr       */
+/*   Updated: 2023/11/21 13:34:15 by zmoumni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strcpy(char *dest, char *src)
+static char	*ft_strcpy(char *dest, char *src)
 {
 	int	i;
 

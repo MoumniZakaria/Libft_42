@@ -6,7 +6,7 @@
 /*   By: zmoumni <zmoumni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/03 15:44:29 by zmoumni           #+#    #+#             */
-/*   Updated: 2023/11/20 10:24:19 by zmoumni          ###   ########.fr       */
+/*   Updated: 2023/11/21 13:34:04 by zmoumni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,7 +45,7 @@ static char	**malloc_error(char **tbl)
 	return (tbl);
 }
 
-void	skip_char(char const	**str, char c, int *j, int i)
+static void	skip_char(char const	**str, char c, int *j, int i)
 {
 	while ((*str)[i] && (*str)[i] == c)
 		(*str)++;

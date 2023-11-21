@@ -6,7 +6,7 @@
 /*   By: zmoumni <zmoumni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/03 14:48:01 by zmoumni           #+#    #+#             */
-/*   Updated: 2023/11/20 10:24:36 by zmoumni          ###   ########.fr       */
+/*   Updated: 2023/11/20 11:23:04 by zmoumni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,8 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	size_t	len;
 
 	i = 0;
+	if (!s1 || !s2)
+		return (NULL);
 	len = ft_strlen(s1) + ft_strlen(s2);
 	tmp = (char *) malloc(len + 1);
 	if (!tmp)

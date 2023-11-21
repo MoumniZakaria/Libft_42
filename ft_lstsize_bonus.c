@@ -6,7 +6,7 @@
 /*   By: zmoumni <zmoumni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/14 17:30:36 by zmoumni           #+#    #+#             */
-/*   Updated: 2023/11/20 10:22:38 by zmoumni          ###   ########.fr       */
+/*   Updated: 2023/11/20 11:17:29 by zmoumni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,14 @@
 
 int	ft_lstsize(t_list *lst)
 {
-	int	cp;
+	int		cp;
+	t_list	*tmp;
 
 	cp = 0;
-	while (lst)
+	tmp = lst;
+	while (tmp)
 	{
-		lst = lst->next;
+		tmp = tmp->next;
 		cp++;
 	}
 	return (cp);
