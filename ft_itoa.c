@@ -6,7 +6,7 @@
 /*   By: zmoumni <zmoumni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/04 16:50:51 by zmoumni           #+#    #+#             */
-/*   Updated: 2023/11/21 13:33:14 by zmoumni          ###   ########.fr       */
+/*   Updated: 2023/11/22 09:44:15 by zmoumni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,7 +55,7 @@ static char	*check_minint(void)
 	return (str);
 }
 
-static char	*ft_itoa(int n)
+char	*ft_itoa(int n)
 {
 	size_t	len;
 	char	*str;

@@ -6,13 +6,11 @@
 /*   By: zmoumni <zmoumni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/02 14:03:26 by zmoumni           #+#    #+#             */
-/*   Updated: 2023/11/21 17:16:16 by zmoumni          ###   ########.fr       */
+/*   Updated: 2023/11/22 09:55:15 by zmoumni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <string.h>
-#include <stdio.h>
 
 int	ft_atoi(const char *str)
 {

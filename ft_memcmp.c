@@ -6,7 +6,7 @@
 /*   By: zmoumni <zmoumni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/08 16:46:23 by zmoumni           #+#    #+#             */
-/*   Updated: 2023/11/20 10:22:30 by zmoumni          ###   ########.fr       */
+/*   Updated: 2023/11/22 10:12:24 by zmoumni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,8 +26,8 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	while (i < n - 1)
 	{
 		if (str1[i] != str2[i])
-			return (str1[i] - str2[i]);
+			return ((unsigned char)str1[i] - (unsigned char)str2[i]);
 		i++;
 	}
-	return (str1[i] - str2[i]);
+	return ((unsigned char)str1[i] - (unsigned char)str2[i]);
 }
