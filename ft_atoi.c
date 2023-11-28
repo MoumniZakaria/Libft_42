@@ -6,7 +6,7 @@
 /*   By: zmoumni <zmoumni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/02 14:03:26 by zmoumni           #+#    #+#             */
-/*   Updated: 2023/11/22 09:55:15 by zmoumni          ###   ########.fr       */
+/*   Updated: 2023/11/28 13:13:16 by zmoumni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ int	ft_atoi(const char *str)
 {
 	int		i;
 	int		m;
-	long	rst;
+	size_t	rst;
 
 	i = 0;
 	m = 1;
@@ -32,9 +32,9 @@ int	ft_atoi(const char *str)
 	while (str[i] >= '0' && str[i] <= '9')
 	{
 		rst = (rst * 10) + str[i] - 48 ;
-		if (rst > 9223372036854775807 && m > 0)
+		if (rst > SIZE_MAX && m > 0)
 			return (-1);
-		else if (rst > 0 && rst - 1 > 9223372036854775807 && m < 0)
+		else if (rst > 0 && rst - 1 > SIZE_MAX && m < 0)
 			return (0);
 		i++;
 	}

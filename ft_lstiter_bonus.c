@@ -6,7 +6,7 @@
 /*   By: zmoumni <zmoumni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/15 15:23:42 by zmoumni           #+#    #+#             */
-/*   Updated: 2023/11/17 12:14:04 by zmoumni          ###   ########.fr       */
+/*   Updated: 2023/11/23 16:35:56 by zmoumni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,11 +14,12 @@
 
 void	ft_lstiter(t_list *lst, void (*f)(void *))
 {
-	if (!lst)
+	if (!lst || !f)
 		return ;
 	while (lst)
 	{
-		(*f)((lst)->content);
+		if ((lst)->content)
+			(*f)((lst)->content);
 		lst = lst->next;
 	}
 }

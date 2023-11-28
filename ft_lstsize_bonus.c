@@ -6,7 +6,7 @@
 /*   By: zmoumni <zmoumni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/14 17:30:36 by zmoumni           #+#    #+#             */
-/*   Updated: 2023/11/20 11:17:29 by zmoumni          ###   ########.fr       */
+/*   Updated: 2023/11/23 17:17:11 by zmoumni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@ int	ft_lstsize(t_list *lst)
 	t_list	*tmp;
 
 	cp = 0;
+	if (!lst)
+		return (0);
 	tmp = lst;
 	while (tmp)
 	{

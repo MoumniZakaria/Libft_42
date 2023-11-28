@@ -6,7 +6,7 @@
 /*   By: zmoumni <zmoumni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/14 17:56:35 by zmoumni           #+#    #+#             */
-/*   Updated: 2023/11/20 10:24:05 by zmoumni          ###   ########.fr       */
+/*   Updated: 2023/11/23 17:07:33 by zmoumni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	ft_lstadd_back(t_list **lst, t_list *new)
 {
-	if (!new)
+	if (!new || !lst)
 		return ;
 	if (!*lst)
 	{

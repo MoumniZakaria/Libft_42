@@ -6,7 +6,7 @@
 /*   By: zmoumni <zmoumni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/03 14:47:30 by zmoumni           #+#    #+#             */
-/*   Updated: 2023/11/20 10:23:30 by zmoumni          ###   ########.fr       */
+/*   Updated: 2023/11/28 13:13:04 by zmoumni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ void	*ft_calloc(size_t count, size_t size)
 {
 	char	*tmp;
 
+	if (count * size > SIZE_MAX || count == SIZE_MAX || size == SIZE_MAX)
+		return (NULL);
 	if (count == 0 || size == 0)
 	{
 		tmp = malloc(count * size);
