@@ -6,7 +6,7 @@
 /*   By: zmoumni <zmoumni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/10 16:02:08 by zmoumni           #+#    #+#             */
-/*   Updated: 2023/11/27 10:50:57 by zmoumni          ###   ########.fr       */
+/*   Updated: 2024/11/22 19:47:36 by zmoumni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	unsigned char	*str ;
 
 	i = 0;
-	str = (unsigned char *)s; 
+	str = (unsigned char *)s;
 	while (i < n)
 	{
 		if (str[i] == (unsigned char)c)
